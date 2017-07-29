@@ -13,7 +13,10 @@ package 'git' do
 end
 
 file '/etc/motd' do
-  content "This is Jordan's Computer!"
+  content "
+This is Jordan's Computer!
+
+"
   action :create
   owner 'root'
   group 'root'
